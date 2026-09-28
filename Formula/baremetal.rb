@@ -17,6 +17,6 @@ class Baremetal < Formula
   end
 
   test do
-    assert_match "usage", shell_output("#{bin}/baremetal 2>&1", 1)
+    assert_match "Usage", shell_output("#{bin}/baremetal 2>&1", 1)
   end
 end
