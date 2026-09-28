@@ -6,7 +6,10 @@ a from-scratch LLM inference and training engine for Apple Silicon.
 ## Install
 
     brew tap huseyincavusbi/baremetal
+    brew trust huseyincavusbi/baremetal
     brew install baremetal
+
+(The `brew trust` step is required by Homebrew 7 for third-party taps.)
 
 Installs two binaries:
 
